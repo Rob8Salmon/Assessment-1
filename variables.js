@@ -52,8 +52,7 @@ else {
 
 //CODE HERE
 
-//let favNum88 = i
+for(let i = 0; i < 5; i++)
+  console.log(favNum)
 
-//for (let i = 88; )
 
-//Not sure how to proceed for a solution on number 5
