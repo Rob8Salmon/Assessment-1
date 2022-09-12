@@ -3,26 +3,27 @@
 
 //CODE HERE 
 
-let myName = 'robertSalmon';
+let myName = "robert";
 
-console.log('robertSalmon')
+console.log(myName);
 
 //////////////////PROBLEM 2////////////////////
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
 
 //CODE HERE
+console.log("-----------------");
+
 let favNum = 88
-
-console.log(faveNum = 88)
-
+console.log(faveNum);
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
 //CODE HERE
+console.log("-----------------");
 
 let lovesCode = true;
 
-console.log('lovesCode is equal to true');
+console.log(lovesCode);
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -32,15 +33,12 @@ console.log('lovesCode is equal to true');
 */
 
 //CODE HERE
+console.log("-----------------");
 
-let num = 'lucky 13'
-
-let num2 = 'not lucky 13'
-
-if (num === num2) {
-  console.log('favNum is lucky 13!')} 
-else {
-  console.log('faveNum is not lucky 13')
+if (faveNum === 13) {
+  console.log("Lucky 13!");
+} else {
+  console.log("Not lucky 13");
 }
 
 
@@ -51,8 +49,10 @@ else {
 */
 
 //CODE HERE
+console.log("-----------------");
 
-for(let i = 0; i < 5; i++)
-  console.log(favNum)
+for (let i = 0; i < 5; i++) {
+  console.log(faveNum);
+}
 
 

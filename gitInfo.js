@@ -11,7 +11,8 @@
 
 //CODE HERE
 
-let gitDefinition =('Is a giant online database/library for developers to upload code projects and prevents loss of progress and bugs.')
+const gitDefinition =
+  "Git is a program that serves as a version control system.";
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -21,7 +22,8 @@ let gitDefinition =('Is a giant online database/library for developers to upload
 
 //CODE HERE
 
-let gitHubDefinition =('Is a platform where developers can work together on coding projects and upload projects')
+const gitHubDefinition =
+  "GitHub is a website were we can upload our code and showcase projects in a portfolio. GitHub also enables collaboration between developers by taking advantage of Git to sync code between different machines.";
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -31,7 +33,8 @@ let gitHubDefinition =('Is a platform where developers can work together on codi
 
 //CODE HERE
 
-let gitInitDefinition =('Create/initialize a local repository in a folder.')
+const gitInitDefinition =
+  "'Git init' is a command that initializes a local repository (code project) inside the current directory and creates the ability to start logging project revisions.";
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -41,7 +44,8 @@ let gitInitDefinition =('Create/initialize a local repository in a folder.')
 
 //CODE HERE
 
-let gitCloneDefinition =('(REPO_URL)copy a repo from Github and save it in my computer.')
+const gitCloneDefinition =
+  "'Git clone' is a command used to copy an existing Git repository into a new local directory/folder.";
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -51,7 +55,8 @@ let gitCloneDefinition =('(REPO_URL)copy a repo from Github and save it in my co
 
 //CODE HERE
 
-let gitStatusDefinition =('Gives a brief overview of what the repo/file is.')
+const gitStatusDefinition =
+  "'Git status' is a command that displays the state of the working directory and the staging area. It shows wich changes have been staged and which have not";
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -64,7 +69,10 @@ let gitStatusDefinition =('Gives a brief overview of what the repo/file is.')
 
 //CODE HERE
 
-let gitAddDefinition =('Will always track files.')
+const gitAddDefinition =
+  "'Git add' is a command used to stage changes for the next commit.";
+
+const gitAddCode = "git add .";
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -77,7 +85,10 @@ let gitAddDefinition =('Will always track files.')
 
 //CODE HERE
 
-let gitCommitDefinition =('Creates a snapshot of files Im tracking.')
+const gitCommitDefinition =
+  "'Git commit' is a command used to snapshot the project's currently staged changes. It is a saving point in the project.";
+
+const gitCommitCode = "git commit -m 'Type-message-here'"; //Note, message should be in "" not in ''
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -87,4 +98,5 @@ let gitCommitDefinition =('Creates a snapshot of files Im tracking.')
 
 //CODE HERE
 
-let gitPushDefinition =('(REPO_NAME) allows you to put local commits on Github.')
+const gitPushDefinition =
+  "'Git push' is a command  used to upload the local repository content to a remote repository";
